@@ -68,5 +68,11 @@ For any additional questions on the task please feel free to email
 `sundara.amancharla@aspaara.com`.
 
 
-## Build Status
-*
+## Run Status
+* To run the project  go to the project root folder if the databse file is empty.
+* run: run_migrate_command.py command on the project root folder, import it to your 
+* sql lite DB and run: run_migrate_command.py command the second time to create database
+* table and migrate the whole json files data to the database.
+
+## Coding Style And Approach
+* First method : was the naive approach, it worked well and the endpoints was similar to the the 
