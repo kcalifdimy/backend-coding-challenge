@@ -23,6 +23,10 @@
 * It eleminated redundancy 
 * Made the project loosely coupled and dyanimic
 
+
+## Improvement 
+   Beacuse of time I was unable to add configure docker-compose and pylint for the development enviroment
+
 # Backend Coding Challenge
 
 At aspaara a squad of superheroes works on giving superpowers to planning teams.
