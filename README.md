@@ -1,3 +1,28 @@
+
+## Run Project
+* To run the project go to the project root folder if the databse file is empty.
+* run: run_migrate_command.py command on the project root folder, import it to your 
+* sql lite DB and run: run_migrate_command.py command the second time to create database
+* table and migrate the whole json files data to the database.
+* to run server,run: uvicorn planning_app.main:app --reload in the project root folder
+
+## Coding Style And Approach
+* FIRST METHOD :
+*  was the naive approach, it worked well and the endpoints was similar to 
+* the data records given but it has some draw backs like: the project being so tightly 
+* coupled being inter dependent,  individual isRequired and Optional skills which is supposed 
+* to be only eleven instead appearing multple time in the database causing redundancy and 
+* Normaization error.
+* SECOND METHOD:
+* Is the Dynamic loosely coupled approch, what I did first was to write a 
+* code that separate the Plannning.json file into three tables, Planning table, PlanSkills, and Skill
+* mapping them to their respective ID's. and having them into three different json files.
+* then I used dynamic method to import and read the three json files and map them to their individual 
+* database tables.
+* BENEFITS: 
+* It eleminated redundancy 
+* Made the project loosely coupled and dyanimic
+
 # Backend Coding Challenge
 
 At aspaara a squad of superheroes works on giving superpowers to planning teams.
@@ -68,11 +93,4 @@ For any additional questions on the task please feel free to email
 `sundara.amancharla@aspaara.com`.
 
 
-## Run Status
-* To run the project  go to the project root folder if the databse file is empty.
-* run: run_migrate_command.py command on the project root folder, import it to your 
-* sql lite DB and run: run_migrate_command.py command the second time to create database
-* table and migrate the whole json files data to the database.
-
-## Coding Style And Approach
-* First method : was the naive approach, it worked well and the endpoints was similar to the the 
+* 
