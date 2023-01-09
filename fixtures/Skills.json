@@ -1,0 +1,13 @@
+[
+    {"name": "German", "category": "Language", "id": 1},
+    {"name": "Javascript", "category": "Coding Language", "id": 2},
+    {"name": "English", "category": "Language", "id":3 },
+    {"name": "Python", "category": "Coding Language", "id": 4},
+    {"name": "R", "category": "Coding Language", "id": 5},
+    {"name": "French", "category": "Language", "id": 6},
+    {"name": "TypeScript", "category": "Coding Language", "id": 7},
+    {"name": "C++", "category": "Coding Language", "id": 8},
+    {"name": "React", "category": "Coding Language", "id": 9},
+    {"name": "Scala", "category": "Coding Language", "id": 10},
+    {"name": "Spanish", "category": "Language", "id": 11}
+]
