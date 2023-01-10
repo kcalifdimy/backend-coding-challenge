@@ -1,8 +1,8 @@
 
 ## Run Project
 * To run the project go to the project root folder if the databse file is empty.
-* run: run_migrate_command.py command on the project root folder, import it to your 
-* sql lite DB and run: run_migrate_command.py command the second time to create database
+* run: python run_migrate_command.py command on the project root folder, import it to your 
+* sql lite DB and run: python run_migrate_command.py command the second time to create database
 * table and migrate the whole json files data to the database.
 * to run server,run: uvicorn planning_app.main:app --reload in the project root folder
 
