@@ -6,5 +6,5 @@ from config import base
 
 planning.migrate_database_planning(base.FIXTURE_DIR_PATH)
 
-print("status: database migrated successfully")
+#print("status: database migrated successfully")
 
